@@ -87,6 +87,7 @@ Model training
 Document detection
 Face verification
 Fraud detection pipeline
+Address Detection
 jupyter notebook
 
 📊 Workflow Overview
