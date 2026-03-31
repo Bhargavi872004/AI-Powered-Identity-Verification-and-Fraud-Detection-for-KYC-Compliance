@@ -27,12 +27,17 @@ Provides a user-friendly web interface for a seamless and guided eKYC experience
 ## 📂 Project Structure
 AI-Powered-Identity-Verification-and-Fraud-Detection-for-KYC-Compliance/
 │
+
 ├── Face detection/ # Models and scripts for facial recognition and liveness detection
+
 ├── document detection/ # Logic for detecting and processing ID cards, passports, etc.
+
 ├── frontend/ # Web-based UI for the eKYC application
 │
 ├── Adress_Detection.ipynb # Notebook for processing and verifying user address details
+
 ├── tampmodeltraining.ipynb # Training script for document anti-tampering model
+
 ├── tampering dataset.ipynb # Data preprocessing for fraud detection training
 │
 └── README.md
