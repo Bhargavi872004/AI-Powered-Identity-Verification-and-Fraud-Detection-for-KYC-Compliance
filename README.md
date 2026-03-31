@@ -1,4 +1,4 @@
-# AI-Powered Identity Verification & Fraud Detection for KYC Compliance
+# Vidzai-Digital AI-Powered Identity Verification & Fraud Detection for KYC Compliance
 
 This repository contains an **end-to-end solution** for automating the **KYC (Know Your Customer)** process using **Artificial Intelligence**.  
 The system focuses on **identity verification, document validation, and fraud detection** to ensure **secure and compliant user onboarding**.
