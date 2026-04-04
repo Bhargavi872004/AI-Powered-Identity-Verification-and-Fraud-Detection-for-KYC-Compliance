@@ -1,0 +1,35 @@
+Sl: No:,Test Case Name,Test Procedure,Condition to be tested,Expected Result,Actual Result
+1, Dataset Loading Test,Load CASIA dataset using file path,Datset path is corrected and accessible,Images should load without error,Dataset loaded successfully
+2,image preprocessing test,apply resizing and cleaning on images,input images have different size or corrupted files,all images resized uniformly and invalid images removed,images resized and cleaned correctly
+3,Model Trainingn test,train resnet50 model on processed dataset,model is trained with training data,model should acheve reasonable accuracy without errors,model trained successfully with good accuracy
+1, Dataset Loading Test,Load SROIE dataset from kaggle directly using commands ,Commands are correct and dataset is loaded ,Dataset should be loaded  without any errors,Dataset loaded successfully
+2,image preprocessing test,"apply resizing ,grayscale and threshold for cleaning the images",input images have different size or corrupted files,all images resized uniformly and invalid images removed,images resized and cleaned correctly
+3,Model Training and testing,train YOLO model on processed dataset,model is trained with training data,model should achieve standard accuracy ,model trained successfully with good accuracy
+1,Dataset Loading Test,Load dataset from  Google Drive,Dataset path is correct,Images should load without error,Dataset loaded successfully
+2,Image preprocessing test,Resize to 160x160 and normalize images,Input images may vary,Images should be resized and normalized,Images processed correctly
+3,Data Augmentation Test,"Apply flip,brightness and rotation",input images,Augmented images generated,Augmentation on done
+4,Embedding Generation Test,Generation embeddings using FaceNet,Preprocessed images,Embeddings should be created,Emmbeddings generated successfully
+5,Similarities Calculation Test,Apply cosine +L2similarities,Embeddings,Similarities scores calculated,Scores generated  correctly
+6,Model Evaluation Test,Evaluate using accuracy and F1 - score,Test dataset,Accuracy > 70%,Accuracy = 88.6%
+7,Threshold Optimization,Find best threshold,Similarity scores,Optimal threshold  identified,Threshold =1.0
+8,Data Preprocessing,"Input raw data, clean and preprocess it (handle missing values, remove noise, format data), and verify the final dataset is accurate and ready for use.","Data should be complete, clean",balanced dataset ready for accurate model processing.,95% data successfully cleaned
+,,,,,
+9,Dashboard UI Loading Test,Open dashboard.html in browser,All CSS files loaded correctly,Dashboard should  displaya with the stats and cards ,Dashboard loaded succusfully with all components
+10,Dask Mode Toggle Test,click dark mode toggle button,user preference saved in localstorage,Page should switch between light and dark mode ,Dark mode toggels correctly and persists after refresh
+11,Responsive layout Test,Resize browser window to mobile view (768px),Media queries applied correctly,"Sidebar should colapse,grid should stack",Layout adapts correctly to all screen sizes
+12,Stats Cards Data Loading Test,Check dashboard stats values,Data from JavaScript arrays loaded,"Total Verifications, Verified, Flagged, Pending numbers displayed",Stats cards display correct animated values
+13,KYC Table Data Loading Test,Load dashboard page,Verification data from script.js,"Table should show Indian names (Ravi, Amulya, Geetha, etc.)",Table loads with correct indian names
+14,Risk Case Review Buttons Test,View risk case review section,6 buttons rendered correctly,"Confirm Fraud, Clear Case, Review, Escalate, Investigate, Flag buttons displayed",All 6 buttons aligned in 3x2 grid
+15,Button Animation Test,Hover over any action button,CSS transitions applied,"Buttons should scale, shimmer, or animate on haver",All buttons have smooth hover animations
+16,Profile Modal Loading Test,Click on user avatar in sidebar,User data from localStorage,Profile modal should open with user details,"Modal loads with correct user name, role, and editable fields"
+17,Profile Data Save Test,Edit profile fields and click Save,Updated data saved to localStorage,Profile should update across all pages,Profile updates successfully and persists
+18,Verifications Page Filter Test,Select status filter (Verified/Flagged/Pending),Filter function triggered,Table should show only filtered records,Fliters work correctly and update table
+19,Alerts Page Loading Test,Navigate to alerts.html,Alert data loaded from script.js,Alerts table should display with risk levels,"Alerts load with High, Medium, Low risk badges"
+20,Documents Page Upload Test,"Click ""Select File"" on any document card",Fille input triggered,File picker should open,File picker opens and accepts files
+21,Documents Table Loading Test,Load documents page,Document data from script.js,Recent documents table should show uploaded files,Documents table loads correctly with status badges
+22,Analytics Charts Loading Test,Load analytics.html,Chart.js library loaded,"Bar chart, doughnut chart, line chart should display",All charts load with animations
+23,Settings Page Tab Switching Test,"Click on different settings tabs (General, Al, Security, etc.)",Tab content switching,Only active tab content should display,Tabs switch correctly with smooth transitions
+24,API Key Copy Test,"Click ""Copy"" button on API configuration",Clipboard API used,API key should copy to clipboard,API key copies successfully
+25,Login Page Ul Test,Open index.html,Login form elements loaded,"Email, password fields and Sign In button displayed",Login page loads correctly with workflow steps
+26,Register Form Test,"Click ""Create Account"" tab",Register form loaded,All registration fields should display,"Register form loads with Name, Email, Company, Role, Phone, Department fields"
+27,Navigation Test,"Click on sidebar menu items (Verifications, Alerts, Documents, Analytics, Settings)",Page redirects,Correct HTML page should load,All navigation links work correctly

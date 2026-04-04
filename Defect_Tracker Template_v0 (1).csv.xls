@@ -1,0 +1,39 @@
+Sl No,Submitted By,Submitted Date,Description,Detected Sprint,Assigned To,Type Of Defect,Action Taken,Action Taken Date,Status(Open/Closed),Remarks
+1,Sandhiya R,Day 2,confusion in selecting correct approach,Sprint 1,Sandhiya R,Logical,compared techniques and finalized resnet50,Day 3,Closed,resolved after research 
+2,Sandhiya R,Day 5,dataset not loading properly,sprint 2,Sandhiya R,Logical,fixed file path and directory structure,DAY 5,Closed,issue resolved
+3,Sandhiya R,Day 5,corrupted images causing errors,Sprint 2,Sandhiya R,Data,removed invaled images,Day 6,Closed,Dataset cleaned
+4,Sandhiya R,Day 10,low model accuracy,Sprint 3,Sandhiya R,Logical,tuned hyperparameters,Day 11,Closed,Accuracy improved
+5,Sandhiya R,Day 11,low model accuracy,Sprint 3,Sandhiya R,Logical,added droupout and regularization,Day 12,Closed,Model improved
+1,S.Maheswari,Day 2,dataset not loading properly,Sprint 1,Maheswari S,Data,directly downloaded to notebook using kaggle commands,Day 3,Closed,Resolved after correcting dataset paths
+2,S.Maheswari,Day 4,Images not clear for text detection,Sprint 2,Maheswari S,Logical,Applied preprocessing,Day 5,Closed,Image clarity improved
+3,S.Maheswari,Day 5,Poor visibility in images,Sprint 2,Maheswari S,Logical,Applied thresholding to enhance text,Day 6,Closed,Text visibility enhanced
+4,Bhargavi K,Day 9,low model accuracy during training,Sprint 3,Bhargavi K,Logical,Increased epochs and applied data augmentation,Day 10,Closed,Accuracy improved
+5,Bhargavi K,Day 11,Training time too high,Sprint 3,Bhargavi K,Logical,migrated execution from CPU to GPU in Google Colab for improved performance,Day 12,Closed,Training time optimized
+6,Deeksha H L,Day 2,Dataset path error,Sprint 1,Deeksha H L,Logical,Corrected file path,Day 3,Closed,Issue resolved
+7,Deeksha H L,Day 5,images not loading,Sprint 2,Deeksha H L,User Interface,Fixed images display issue,Day 5,Closed,Working fine
+8,Devi P,Day 5,Corrupted images,Sprint 2,Devi P,Maintainability,Cleaned dataset,Day 6,Closed,Dataset improved
+9,Devi P,Day 10,low model accuracy,Sprint 3,Devi P,Logical,Applied augmentation,Day 11,Closed,Accuracy improved
+10,Pravalli l,Day 11,High training time,Sprint 3,Pravalli l,Maintainability,Optimized training process,Day 12,Closed,Faster training 
+11,Pravalli l,Day 12,Threshold issue,Sprint 3,Pravalli l,Standards,Applied threshold tuning,Day 12,Closed,Faster training 
+,,,,,,,,,,
+13,Fariyal Jamadar,Day 1,data preprocessing,Sprint 1,Fariyal J,Logical,Cleaned dataset,Day 6,Closed,issue resolved
+14,Fariyal Jamadar,Day 12,Functional Defect,Sprint 2,Fariyal J,Logical,OCR fails,Day 13,Closed,issue resolved
+,,,,,,,,,,
+15,Fariyal Jamadar,Day 14,Performance Defect,Sprint 3,Fariyal J,Maintainability,Slow response or delay in processing,Day 15,Closed,isssue resolved
+16,Fariyal Jamadar,Day 16,False fraud detection,Sprint 4,Fariyal J,User Interface,Tuned ML model and adjusted threshold,Day 17,Closed,issue resolved
+17,Fariyal Jamadar,Day 18,Dashboard issue,Sprint 5,Fariyal J,Maintainability,Fixed bugs and improved real-time data sync,Day 20,Closed,issue resolved
+,,,Dashboard layout not loading properly on smaller screens,,,,,,,
+18,SIDDINENI GOPALA KRISHNA ,DAY 1,Dashboard layout not loading properly on smaller screens,Sprint 1,SIDDINENI GOPALA KRISHNA,USER INTERFACE,Fixed CSS Grid and flexbox,Day 2 ,Closed,Layout loads correctlty
+19,SIDDINENI GOPALA KRISHNA,DAY 2,Dark mode not loading after refresh,Sprint 1,SIDDINENI GOPALA KRISHNA,LOGICAL,Added localstorage persistence,Day 3,Closed,Dark mode loads correctly
+20,SIDDINENI GOPALA KRISHNA,DAY 3,Weather widget causing page not loading,Sprint 1,SIDDINENI GOPALA KRISHNA,User Interface,Removed widget from slidebar,Day 3,Closed,Page loads without issues
+21,SIDDINENI GOPALA KRISHNA,DAY 4,RISK BUTTONS NOT LOADING IN GRID,sprint 2,SIDDINENI GOPALA KRISHNA,User Interface,created 3 x 2  CSS GRID,DAY 4,Closed,BUTTONS LOAD IN CORRECT LAYOUT
+22,G.Lohitha,DAY 1,data preprocessing,sprint 1,G.Lohitha,,Cleaned dataset,Day 6,closed,issue resolved
+23,G.Lohitha,Day 12,Functional Defect,sprint 2,G.Lohitha,Logical,OCR fails,Day 13,closed,issue resolved
+24,G.Lohitha,Day14,Performance Defect,Sprint 3,G.Lohitha,Maintainability,Slow response or delay in processing,Day 15,closed,issue resolved
+25,G.Lohitha,Day 16,False fraud detection,sprint 4,G.Lohitha,user interface,Tuned ML model and adjusted threshold,Day 17,closed,issue resolved
+26,G.Lohitha,Day 18,Dashboard issue,sprint 5,G.Lohitha,Maintainability,Fixed bugs and improved real-time data sync,Day 20,closed,issue resolved
+27,SIDDINENI GOPALA KRISHNA,DAY 5,PROFILE DATA NOT LOADING IN MODEL,sprint 2,SIDDINENI GOPALA KRISHNA,Logical, added localstorage user fetch,Day 7,Closed,profile data loads correctly
+28,SIDDINENI GOPALA KRISHNA,DAY 8,analytics charts are not loading,sprint 2,SIDDINENI GOPALA KRISHNA,Logical,integrated chart is library ,Day 10,Closed,charts loads with animations
+29,SIDDINENI GOPALA KRISHNA,Day 10,document page not  loading on click,sprint 2,SIDDINENI GOPALA KRISHNA,User Interface,fixed sidebar navigation links,Day 11,Closed,navigation loads currently 
+30,SIDDINENI GOPALA KRISHNA,Day 12,button animations not loading ,Sprint 3,SIDDINENI GOPALA KRISHNA,User Interface,added css keyframe animations,Day 15,Closed,animations load on hover
+31,SIDDINENI GOPALA KRISHNA,Day 16,mobile view not loading properly,Sprint 3,SIDDINENI GOPALA KRISHNA,Maintainability,added media queries ,Day 17,Closed,mobile layout loads correctly 
